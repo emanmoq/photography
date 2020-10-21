@@ -594,6 +594,20 @@ section.clients{
     left: 26px;
     top: 62px;
 }
+.halfformgroup.form-group {
+    width: 100%;}
+.contactIcon{
+    width:20px;
+    height: 20px;
+    margin-right:5px;;
+    padding:2px;
+}
+.contactMenu li{
+    font-size:1.1em
+}
+.sendMessage{
+    width:100%;
+}
 }
 @media(min-width:768px) and (max-width:1023px){
     .serviceTitle h3 {
@@ -638,6 +652,16 @@ section.clients{
     margin-bottom:40px;}
   form  .halfformgroup.form-group {
         width: 100%;}
+        .contactIcon{
+            width:20px;
+            height: 20px;
+            margin-right:5px;;
+            padding:2px;
+        }
+        .contactMenu li{
+            font-size:1.1em
+        }
+  
              }
 
 @media(min-width:1024px) and (max-width:1200px){
