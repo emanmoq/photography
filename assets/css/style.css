@@ -436,7 +436,17 @@ transition: all .5s;
         box-shadow: 0px 3px 60px #00000029;
         margin-bottom: 90px;;
     }
-    .portfoiloBox .studioImg:before{
+   .portfoiloBox .studioImg a{
+position: relative;
+width:100%;
+height:100%;
+top:0;
+left:0;
+bottom:0;
+right:0;
+display:block
+    }
+    .portfoiloBox .studioImg a:before{
 content: "";
 position:absolute;
 width:100%;
